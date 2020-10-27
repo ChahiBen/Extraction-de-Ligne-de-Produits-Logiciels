@@ -1,0 +1,22 @@
+digraph G { 
+	rankdir=BT;
+subgraph ProductConfigurationMatrice { 
+label="ProductConfigurationMatrice";
+1 [shape=record,label="{Concept_ProductConfigurationMatrice_6|Attribute : Canvas.start\nAttribute : Canvas.end\nAttribute : Canvas.figureSelected\nAttribute : Canvas.color\nMethod : Canvas.mouseClicked\nMethod : Canvas.mouseDragged\nMethod : Canvas.mouseEntered\nMethod : Canvas.mouseExited\nMethod : Canvas.mouseMoved\nMethod : Canvas.mousePressed\nMethod : Canvas.mouseReleased\nMethod : Canvas.paintComponent\nMethod : Canvas.selectedFigure\nClass : Canvas\nAttribute : Main.WIDTH\nAttribute : Main.HEIGHT\nAttribute : Main.toolPanel\nAttribute : Main.canvas\nAttribute : Main.contentPane\nMethod : Main.init\nMethod : Main.initAtoms\nMethod : Main.initContentPane\nMethod : Main.initLayout\nMethod : Main.initListeners\nMethod : Main.main\nClass : Main\n|}"];
+2 [shape=record,label="{Concept_ProductConfigurationMatrice_5|Attribute : Canvas.lines\nAttribute : Canvas.newLine\nMethod : Canvas.mouseDraggedLine\nMethod : Canvas.mousePressedLine\nMethod : Canvas.mouseReleasedLine\nAttribute : Line.startPoint\nAttribute : Line.endPoint\nMethod : Line.getEnd\nMethod : Line.getStart\nMethod : Line.paint\nMethod : Line.setEnd\nClass : Line\nAttribute : Main.lineText\nAttribute : Main.lineButton\n|Product2\n}"];
+3 [shape=record,label="{Concept_ProductConfigurationMatrice_0||Product1\n}"];
+4 [shape=record,label="{Concept_ProductConfigurationMatrice_4|Attribute : Canvas.rects\nAttribute : Canvas.newRect\nMethod : Canvas.mouseDraggedRect\nMethod : Canvas.mousePressedRect\nMethod : Canvas.mouseReleasedRect\nAttribute : Main.rectText\nAttribute : Main.rectButton\nAttribute : Rectangle.x\nAttribute : Rectangle.y\nAttribute : Rectangle.width\nAttribute : Rectangle.height\nAttribute : Rectangle.dx\nAttribute : Rectangle.dy\nAttribute : Rectangle.x2\nAttribute : Rectangle.y2\nMethod : Rectangle.getHeight\nMethod : Rectangle.getWidth\nMethod : Rectangle.getX\nMethod : Rectangle.getY\nMethod : Rectangle.paint\nMethod : Rectangle.setEnd\nMethod : Rectangle.updateCorner\nClass : Rectangle\n|Product3\n}"];
+5 [shape=record,label="{Concept_ProductConfigurationMatrice_1|Attribute : Rectangle.color\n|Product5\n}"];
+6 [shape=record,label="{Concept_ProductConfigurationMatrice_2|Attribute : Line.color\n|Product4\n}"];
+7 [shape=record,label="{Concept_ProductConfigurationMatrice_3|Method : Canvas.setColor\nMethod : Canvas.wipe\nAttribute : Main.wipeText\nAttribute : Main.colors\nAttribute : Main.red\nAttribute : Main.green\nAttribute : Main.blue\nAttribute : Main.black\nAttribute : Main.wipeButton\nAttribute : Main.colorsBox\nAttribute : Main.colorsPanel\n|}"];
+	4 -> 1
+	7 -> 1
+	2 -> 1
+	6 -> 2
+	5 -> 4
+	3 -> 5
+	3 -> 6
+	5 -> 7
+	6 -> 7
+}
+}
