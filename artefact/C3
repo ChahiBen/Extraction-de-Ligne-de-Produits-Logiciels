@@ -1,0 +1,11 @@
+Method : Canvas.setColor
+Method : Canvas.wipe
+Attribute : Main.wipeText
+Attribute : Main.colors
+Attribute : Main.red
+Attribute : Main.green
+Attribute : Main.blue
+Attribute : Main.black
+Attribute : Main.wipeButton
+Attribute : Main.colorsBox
+Attribute : Main.colorsPanel

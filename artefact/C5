@@ -1,0 +1,14 @@
+Attribute : Canvas.lines
+Attribute : Canvas.newLine
+Method : Canvas.mouseDraggedLine
+Method : Canvas.mousePressedLine
+Method : Canvas.mouseReleasedLine
+Attribute : Line.startPoint
+Attribute : Line.endPoint
+Method : Line.getEnd
+Method : Line.getStart
+Method : Line.paint
+Method : Line.setEnd
+Class : Line
+Attribute : Main.lineText
+Attribute : Main.lineButton
